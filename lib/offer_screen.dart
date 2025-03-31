@@ -241,9 +241,9 @@ class OfferDetailsScreen extends StatelessWidget {
 
   Widget _buildGetOfferButton() {
     return Container(
-      padding: const EdgeInsets.all(16.0),
+      padding: const EdgeInsets.all(1.0),
       decoration: BoxDecoration(
-        color: Colors.white,
+        color: Colors.blue,
         boxShadow: [
           BoxShadow(
             color: Colors.black.withOpacity(0.1),
@@ -257,7 +257,7 @@ class OfferDetailsScreen extends StatelessWidget {
         style: ElevatedButton.styleFrom(
           backgroundColor: Colors.blue,
           foregroundColor: Colors.white,
-          padding: const EdgeInsets.symmetric(vertical: 14.0),
+          padding: const EdgeInsets.symmetric(vertical: 5.0),
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(8.0),
           ),
